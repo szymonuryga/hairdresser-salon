@@ -1,0 +1,50 @@
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info .item {
+    width: calc(33% - 20px);
+    height: 160px;
+    background-color: #353b48;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.contact-info i {
+    display: block;
+    font-size: 40px;
+    line-height: 120px;
+    height: 100px;
+}
+
+.contact-info .item:hover {
+    background-color: #48dbfb;
+}
+
+.salon-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    color: #353b48;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.hours-info {
+    width: 50%;
+}
+
+.reception{
+    width: 50%;
+}
+
+.reception a{
+    color: #48dbfb;
+}

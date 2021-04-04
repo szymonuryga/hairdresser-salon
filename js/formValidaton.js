@@ -1,21 +1,9 @@
-//navbar
-var myNav = document.getElementById('navbar');
-window.onscroll = () => {
-    if(window.scrollY > 20 ){
-        myNav.classList.add("sticky");
-    }else{
-        myNav.classList.remove("sticky");
-    }
-}
-
-//Form 
-const form = document.getElementById('schedule-form');
-const firstName = document.getElementById('firstName');
-const lastName = document.getElementById('lastName');
-const email = document.getElementById('email');
-const phoneNumber = document.getElementById('phoneNumber');
-const dateClient = document.getElementById('dateClient');
-
+const form = document.querySelector('.schedule-form');
+const firstName = document.querySelector('.firstName');
+const lastName = document.querySelector('.lastName');
+const email = document.querySelector('.email');
+const phoneNumber = document.querySelector('.phoneNumber');
+const dateClient = document.querySelector('.dateClient');
 
 
 form.addEventListener('submit', (e) => {

@@ -1,0 +1,20 @@
+.prices-content{
+    padding: 10px;
+}
+
+.prices-content h3{
+    font-size: 24px;
+    text-align: left;
+}
+
+.prices-content table{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    table-layout: fixed;
+}
+
+.prices-content table tr td{
+    border-top: solid 2px #353b48;
+    padding: 10px;
+}
