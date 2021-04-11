@@ -4,7 +4,7 @@
 
 
 ## General info
-Single page application which which allows client to making an appointment for a haircut. I use form validation in js and php.
+Single page application which which allows client to make an appointment for a haircut. I use form validation in js and php.
 
 ## Technologies
 Project is created with:
